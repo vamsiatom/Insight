@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saimo.insight">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StudentRegister" />
+        <activity android:name=".Staffregister" />
+        <activity android:name=".Studentloginentry" />
+        <activity android:name=".Feedbackform" />
+        <activity android:name=".Attendance" />
+        <activity android:name=".Staffloginentry" />
+        <activity android:name=".Staffdetails" />
+        <activity android:name=".GOALS" />
+        <activity android:name=".COUNSELLING" />
+        <activity android:name=".AboutCollege" />
+        <activity android:name=".Notifications" />
+        <activity android:name=".Ebooks" />
+        <activity android:name=".GATE" />
+        <activity android:name=".GRE" />
+        <activity android:name=".CAT" />
+        <activity android:name=".SEMESTER" />
+        <activity android:name=".CORE" />
+        <activity android:name=".ENGLISH" />
+        <activity android:name=".QUANT" />
+        <activity android:name=".PROGRAMMING" />
+        <activity android:name=".Vision" />
+        <activity android:name=".Aboutchairman" />
+        <activity android:name=".Mission" />
+        <activity android:name=".Feestructure" />
+        <activity android:name=".News" />
+        <activity android:name=".Placements" />
+        <activity android:name=".Courses" />
+        <activity android:name=".Events" />
+        <activity android:name=".Principal" />
+        <activity android:name=".Gresyllabus" />
+        <activity android:name=".Grematerials" />
+        <activity android:name=".Grewebsite" />
+        <activity android:name=".Grevideolectures" />
+        <activity android:name=".Grecollegestop100" />
+        <activity android:name=".Gatesyllabus" />
+        <activity android:name=".Gatematerials" />
+        <activity android:name=".Gatewebsites" />
+        <activity android:name=".Gatevideolectures" />
+        <activity android:name=".Gatecollegestop100" />
+        <activity android:name=".Catpreviouspapers" />
+        <activity android:name=".Catmaterials" />
+        <activity android:name=".Catcolleges" />
+        <activity android:name=".Catpracticetests" />
+        <activity android:name=".Catinterviewprocess" />
+        <activity android:name=".Aboutece" />
+        <activity android:name=".Aboutcse" />
+        <activity android:name=".Abouteee" />
+        <activity android:name=".Aboutmech" />
+        <activity android:name=".Aboutit" />
+        <activity android:name=".Aboutcivil" />
+        <activity android:name=".Aboutprojects" />
+        <activity android:name=".Comprehensions" />
+        <activity android:name=".Grammer" />
+        <activity android:name=".Softskills" />
+        <activity android:name=".Groupdiscussions" />
+        <activity android:name=".Interviewquestions" />
+        <activity android:name=".Theory" />
+        <activity android:name=".Problems" />
+        <activity android:name=".Mocktests" />
+        <activity android:name=".Simpletechniques" />
+        <activity android:name=".Vedicmaths" />
+        <activity android:name=".C" />
+        <activity android:name=".Java" />
+        <activity android:name=".Cpp" />
+        <activity android:name=".Mysql" />
+        <activity android:name=".Php" />
+        <activity android:name=".Html" />
+        <activity android:name=".Xml" />
+        <activity android:name=".One_one" />
+        <activity android:name=".One_two" />
+        <activity android:name=".Two_one" />
+        <activity android:name=".Two_two" />
+        <activity android:name=".Three_one" />
+        <activity android:name=".Three_two" />
+        <activity android:name=".Four_one" />
+        <activity android:name=".Four_two" />
+        <activity android:name=".Labmanuals" />
+        <activity android:name=".Syllabus" />
+        <activity android:name=".Credits" />
+        <activity android:name=".Profiles" />
+        <activity android:name=".Staffprofile"></activity>
+    </application>
+
+</manifest>

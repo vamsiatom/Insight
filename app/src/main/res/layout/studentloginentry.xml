@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.saimo.appcontent.MainActivity"
+    android:background="@drawable/loginentry">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:id="@+id/btsprofile"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EBOOKS"
+        android:id="@+id/btsebook"
+        android:layout_alignTop="@+id/btsprofile"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATTENDANCE"
+        android:id="@+id/btslogout"
+        android:layout_below="@+id/btsprofile"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK"
+        android:id="@+id/btfdback"
+        android:layout_alignTop="@+id/btslogout"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT COLLEGE"
+        android:id="@+id/btsabtclg"
+        android:layout_below="@+id/btslogout"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEPARTMENT"
+        android:id="@+id/btdept"
+        android:layout_alignTop="@+id/btsabtclg"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE PASSCODE"
+        android:id="@+id/btscpwd"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:id="@+id/btsclist"
+        android:layout_above="@+id/btscpwd"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT "
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACTINF"
+        android:id="@+id/btctinf"
+        android:layout_alignBaseline="@+id/btsclist"
+        android:layout_alignBottom="@+id/btsclist"
+        android:layout_alignEnd="@+id/btslogout" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICATIONS"
+        android:id="@+id/btnoti"
+        android:layout_alignBaseline="@+id/btsclist"
+        android:layout_alignBottom="@+id/btsclist"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE PROFILE"
+        android:id="@+id/btcp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STAFF DETAILS"
+        android:id="@+id/btstdt"
+        android:layout_alignTop="@+id/btcp"
+        android:layout_alignEnd="@+id/btnoti" />
+
+</RelativeLayout>
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.saimo.insight.Ebooks"
+    android:background="@drawable/ebooks">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GATE"
+        android:id="@+id/btgate"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUANT"
+        android:id="@+id/btquant"
+        android:layout_marginBottom="93dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENGLISH"
+        android:id="@+id/bteng"
+        android:layout_above="@+id/btsem"
+        android:layout_alignStart="@+id/btgre" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAT"
+        android:id="@+id/btcat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRE"
+        android:id="@+id/btgre"
+        android:layout_alignTop="@+id/btcat"
+        android:layout_alignEnd="@+id/btsem" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEMESTER"
+        android:id="@+id/btsem"
+        android:layout_alignTop="@+id/btquant"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROGRAMMING"
+        android:id="@+id/btprog"
+        android:layout_alignTop="@+id/bteng"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CORE"
+        android:id="@+id/btcore"
+        android:layout_below="@+id/btsem"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

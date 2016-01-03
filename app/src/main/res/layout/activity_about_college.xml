@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.saimo.insight.AboutCollege"
+    android:background="@drawable/college">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VISION"
+        android:id="@+id/btvision"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MISSION"
+        android:id="@+id/btmission"
+        android:layout_alignTop="@+id/btvision"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEE STRUCTURE"
+        android:id="@+id/btfee"
+        android:layout_below="@+id/btvision"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT CHAIRMAN"
+        android:id="@+id/btchair"
+        android:layout_above="@+id/btfee"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEWS"
+        android:id="@+id/btnews"
+        android:layout_alignTop="@+id/btfee"
+        android:layout_alignStart="@+id/btcourse" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLACEMENTS"
+        android:id="@+id/btplace"
+        android:layout_below="@+id/btfee"
+        android:layout_toEndOf="@+id/btfee" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COURSES"
+        android:id="@+id/btcourse"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/btmission" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRINCIPAL"
+        android:id="@+id/btprinci"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btfee" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EVENTS"
+        android:id="@+id/btevents"
+        android:layout_below="@+id/btcourse"
+        android:layout_alignStart="@+id/btcourse"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/btback2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOD&apos;S"
+        android:id="@+id/bthod"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btchair" />
+</RelativeLayout>
